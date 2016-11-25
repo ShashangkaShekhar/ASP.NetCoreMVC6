@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "exports": {
+    "DataLayer/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5",
+      "compile": {
+        "bin/Debug/DataLayer.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/DataLayer.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/DataLayer.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "UtilityLayer/1.0.0": {
+      "type": "project",
+      "framework": ".NETStandard,Version=v1.1",
+      "compile": {
+        "bin/Debug/UtilityLayer.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/UtilityLayer.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/UtilityLayer.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+E:\Doocuments\Article\CoreMVC\CoreMVC\UtilityLayer\bin\Debug\UtilityLayer.dll
+E:\Doocuments\Article\CoreMVC\CoreMVC\UtilityLayer\bin\Debug\UtilityLayer.pdb
+E:\Doocuments\Article\CoreMVC\CoreMVC\UtilityLayer\obj\Debug\UtilityLayer.csprojResolveAssemblyReference.cache
+E:\Doocuments\Article\CoreMVC\CoreMVC\UtilityLayer\obj\Debug\UtilityLayer.dll
+E:\Doocuments\Article\CoreMVC\CoreMVC\UtilityLayer\obj\Debug\UtilityLayer.pdb

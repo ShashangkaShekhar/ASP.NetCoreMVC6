@@ -1,0 +1,48 @@
+﻿@model CoreMVC.Models.Ticket
+@{
+    ViewData["Title"] = "Create";
+}
+<h2>Create</h2>
+<form asp-action="Create">
+    <div class="form-horizontal">
+        <h4>Movie</h4>
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="DestinationFrom" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="DestinationFrom" class="form-control" />
+                <span asp-validation-for="DestinationFrom" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="DestinationTo" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="DestinationTo" class="form-control" />
+                <span asp-validation-for="DestinationTo" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="TicketFee" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="TicketFee" class="form-control" />
+                <span asp-validation-for="TicketFee" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="TicketDate" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="TicketDate" class="form-control" />
+                <span asp-validation-for="TicketDate" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

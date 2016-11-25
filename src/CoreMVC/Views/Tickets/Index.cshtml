@@ -1,0 +1,56 @@
+﻿@model IEnumerable<CoreMVC.Models.Ticket>
+
+@{
+    ViewData["Title"] = "Ticket Page";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DestinationFrom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DestinationTo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketFee)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DestinationFrom)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DestinationTo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TicketDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TicketFee)
+                </td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.TicketId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.TicketId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.TicketId">Delete</a>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>

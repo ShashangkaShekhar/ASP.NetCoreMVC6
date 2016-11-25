@@ -1,0 +1,4 @@
+E:\Doocuments\Article\CoreMVC\CoreMVC\DataLayer\bin\Debug\DataLayer.dll
+E:\Doocuments\Article\CoreMVC\CoreMVC\DataLayer\bin\Debug\DataLayer.pdb
+E:\Doocuments\Article\CoreMVC\CoreMVC\DataLayer\obj\Debug\DataLayer.dll
+E:\Doocuments\Article\CoreMVC\CoreMVC\DataLayer\obj\Debug\DataLayer.pdb
